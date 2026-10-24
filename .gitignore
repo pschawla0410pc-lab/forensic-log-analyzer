@@ -1,0 +1,11 @@
+# Raw data is downloaded by the notebook at runtime
+daily_logs/
+
+# Copies of corrupt files, regenerated on every run
+data/quarantine/
+
+# Notebook / Python noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
